@@ -1,0 +1,30 @@
+{
+  "name": "privacy-contract",
+  "version": "1.0.0",
+  "description": "A privacy contract management based smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fabric-chaincode-node start"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul-majid-ahmed/contract-manager.git"
+  },
+  "author": "Abdul Majid Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdul-majid-ahmed/contract-manager/issues"
+  },
+  "homepage": "https://github.com/abdul-majid-ahmed/contract-manager#readme",
+  "dependencies": {
+    "fabric-contract-api": "1.4.0",
+    "fabric-shim": "1.4.0",
+    "hashmap": "^2.4.0",
+    "uuid": "^3.4.0"
+  }
+}
